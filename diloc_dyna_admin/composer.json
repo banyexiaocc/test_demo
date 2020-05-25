@@ -1,6 +1,0 @@
-{
-    "require": {
-        "topthink/think-image": "^1.0",
-        "tecnickcom/tcpdf": "^6.2"
-    }
-}
