@@ -25,6 +25,7 @@ class Authuser extends Controller
         //self::$redis->pconnect('127.0.0.1',6379);
         self::$redis->connect('39.106.212.136', 6255);
         self::$redis->auth("dyanflowzjs8888dyanflowzjs8888");//连接密码*/
+        
         //api请求路径信息
         $param_must = Request::instance()->only('access_token');
         if(!isset($param_must['access_token'])||empty($param_must['access_token'])){
